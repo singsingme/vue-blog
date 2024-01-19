@@ -21,6 +21,7 @@ import Tiptap from './components/Tiptap.vue'
 <style scoped>
 
 nav {
+  z-index: 999;
   width: 100%;
   height: 70px;
   background-color: rgb(102, 255, 0);

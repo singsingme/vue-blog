@@ -1,7 +1,9 @@
 <template>
   <section id="intro">
-
-    <video src="~@/assets/ocean_-_74888 (1080p).mp4" autoplay muted loop></video>
+    <div class="video_area">
+      <video src="~@/assets/ocean_-_74888 (1080p).mp4" autoplay muted loop></video>
+    </div>
+    <div class="intro_txt">hello</div>
     <!-- <div class="new_pjt">
       <p>PROJECT!</p>
       <swiper
@@ -36,8 +38,21 @@ import { Pagination } from 'swiper/modules';
 <style lang="less" scoped>
 #intro {
   width: 100%;
-  // display: flex;
-  // justify-content: center;
+  overflow-x: hidden;
+  .video_area {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  .intro_txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aqua;
+  }
   
 }
 </style>
