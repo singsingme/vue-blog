@@ -8,6 +8,7 @@ import Tiptap from './components/Tiptap.vue'
   <div>
     <header>
       <nav>
+        <span class="material-symbols-outlined">cruelty_free</span>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/WriteArticle">WriteArticle</RouterLink>
